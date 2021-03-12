@@ -1,0 +1,8 @@
+.box {
+    font-size: 40px;
+    min-height: 300px;
+    width: 100%;
+    background: lightgray;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
