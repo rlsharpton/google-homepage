@@ -1,8 +1,30 @@
 .box {
-    font-size: 40px;
-    min-height: 300px;
+    font-size: 13px;
+    line-height: 24px;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
     width: 100%;
-    background: lightgray;
+    background: lightsteelblue;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.about:hover {
+    text-decoration: underline;
+}
+
+.store:hover {
+    text-decoration: underline;
+}
+
+.gmail:hover {
+    text-decoration: underline;
+}
+
+.images:hover {
+    text-decoration: underline;
+}
+
+.grid:hover {
+    text-decoration: box-sha;
 }
