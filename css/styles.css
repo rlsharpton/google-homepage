@@ -1,4 +1,4 @@
-.box {
+.header {
     font-size: 13px;
     line-height: 24px;
     font-weight: 300;
@@ -6,7 +6,42 @@
     width: 100%;
     background: lightsteelblue;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.footer {
+    font-size: 13px;
+    line-height: 24px;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    background: red;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+}
+
+.search {
+    font-size: 13px;
+    line-height: 24px;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    background: lightgreen;
+    display: grid;
+    /*grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;*/
+
+}
+
+#logo {
+    font-size: 13px;
+    line-height: 24px;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    background: green;
+    display: grid;
+    grid-template-columns: 4fr 1fr 1fr 1fr 1fr 1fr 1fr 4fr;
+
 }
 
 .about:hover {
@@ -26,5 +61,15 @@
 }
 
 .grid:hover {
-    text-decoration: box-sha;
+    width: 50px;
+    height: 50px;
+    background-color: #e65525;
+    border-radius: 50%;
+    box-shadow: 0 0 0 3px #e78267;
+}
+
+
+.footer {
+    background-color: lightsteelblue;
+
 }
